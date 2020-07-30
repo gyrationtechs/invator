@@ -8,8 +8,8 @@
 }
 
 body {
-    background: url(../images/user-bg.png) center no-repeat;
-    background-size: contain;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.801) 0%, rgba(0, 0, 0, 0.63) 100%), url(../images/user-bg.png) center no-repeat;
+    background-size: 650px;
     background-color: #1d1d1d !important;
     color: #c4c4c4;
 }
@@ -44,27 +44,17 @@ body {
     color: #ebebeb;
 }
 
+.content-section {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
 .wrapper{
     max-width: 1200px;
     margin: 10px auto;
 }
-/* nav a{
-    color: #001f3f;
-    text-decoration: none;
-}
-.navbar-nav li{
-    margin: 0 30px;
-}
-.navbar-brand{
-    font-family: bob;
-    font-size: 30px;
-}
-#navbarNav{
-    justify-content: center;
-}
-.notification{
-    margin-right: 15px;
-} */
+
 .dp{
     width: 30px;
     height: 30px;
@@ -108,7 +98,7 @@ body {
 .invoice-icons{
     margin-right: 4px;
     font-size: 20px;
-    color: #001f3f;
+    color: #0074d9;
 }
 .invoice-icons .fa{
     margin: 0 7px;
@@ -123,10 +113,10 @@ th, td{
 th{
     font-size: 14px;
     color: #c3c3c3;
-    font-weight: 200;
+    font-weight: 300;
 }
 td{
-    font-weight: 800;
+    font-weight: 600 !important;
     color: #ebebeb;
 }
 td .user-pic{
@@ -170,6 +160,6 @@ td .user-pic{
     border: none;
     border-radius: 15px;
     padding: 5px 10px;
-    color: #353535;
+    color: #c5c5c5;
     font-weight: 600;
 }
