@@ -8,8 +8,9 @@
 }
 
 body {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.801) 0%, rgba(0, 0, 0, 0.63) 100%), url(../images/user-bg.png) center no-repeat;
-    background-size: 650px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.801) 0%, rgba(0, 0, 0, 0.63) 100%);
+      /*  url;(../images/user-bg.png) center no-repeat; */
+   /* background-size: 650px; */
     background-color: #1d1d1d !important;
     color: #c4c4c4;
 }
