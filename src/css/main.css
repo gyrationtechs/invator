@@ -20,16 +20,21 @@ body {
 
 .round {
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    /* margin-left: 12px; */
     border: 1px solid #ebebeb;
 }
 
 /* Navbar */
 .nav-bar {
     padding: 20px 0;
+    margin: 0 10px;
 }
 
 .nav-bar li {
-    margin: 0 12px;
+    margin-right: 16px;
 }
 
 .navbar-brand {
