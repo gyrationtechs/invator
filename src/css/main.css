@@ -169,6 +169,29 @@ td .user-pic{
     font-weight: 600;
 }
 
+.text-mute {
+    color: #c4c4c4;
+}
+
+.client {
+    background: #001f3f;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 4px;
+
+}
+
+.client i {
+    color: #f8d301;
+    margin-left: 10px;
+}
+
+.graph i {
+    border-radius: 50%;
+    border: 2px solid #c5c5c5;
+    padding: 8px;
+}
+
 /* Media Queries */
 @media screen and (max-width: 512px) {
     .side-bar {
