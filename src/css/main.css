@@ -168,3 +168,10 @@ td .user-pic{
     color: #c5c5c5;
     font-weight: 600;
 }
+
+/* Media Queries */
+@media screen and (max-width: 512px) {
+    .side-bar {
+        margin: 0 16px;
+    }
+}
