@@ -185,11 +185,12 @@ nav a{
 }
 th{
     font-size: 14px;
-    color: #666565;
+    color: #c3c3c3;
     font-weight: 200;
 }
 td{
     font-weight: 900;
+    color: #c5c5c5;
 }
 td .user-pic{
     margin-right: 15px;
@@ -200,7 +201,7 @@ td .user-pic{
     text-align: center;
 }
 .invoice-id{
-    color: #666565;
+    color: #ebebeb;
     font-size: 12px;
 }
 .unpaid{
